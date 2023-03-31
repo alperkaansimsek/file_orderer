@@ -1,6 +1,6 @@
 #To make this code work, you should create folders for each file type in the path that you want to work on to move the files.
 import os, shutil
-path = #enter the path between '' that you want to order your files. For example: C:/users/yourusername/Downloads'
+path = #enter the path between '' that you want to organize your files. For example: C:/users/yourusername/Downloads'
 os.chdir(path) #you can delete this line if you run your code directly in the path that you want to work on. 
 direction = os.listdir(path)
 for file in direction:
